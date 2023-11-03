@@ -25,7 +25,7 @@ if (isset($_SESSION["time-message"])) {
   }
 }
 
-$baseURL = "http://$_SERVER[HTTP_HOST]/apps/revisi/Pbj/";
+$baseURL = "http://$_SERVER[HTTP_HOST]/";
 
 //menambat stock barang baru
 if (isset($_POST['addnewbarang'])) {
